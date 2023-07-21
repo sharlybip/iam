@@ -1,0 +1,24 @@
+.title-desc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 628px;
+    padding: 0 16px;
+  
+  }
+  .title h2{
+    max-width: 628px;
+    font-size: 42px;
+    margin-bottom: 16px;
+  }
+  .title p{
+    color: gray;
+    margin-bottom: 16px;
+  }

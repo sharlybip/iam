@@ -1,0 +1,76 @@
+.reserve {
+    width: 100%;
+    max-height: 838px;
+    padding: 72px 0 0;
+    position: relative;
+    background-image: linear-gradient(to bottom, #ffffff, #fcfcfc, #faf9fa, #f7f7f7, #f4f4f5);
+}
+.img-container {
+    padding: 1px 16px;
+    display: grid;
+    grid-template-areas: 
+        'first second third sixth'
+        'first fourth fifth  sixth';
+    padding-bottom: 100px; 
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 2px solid white;
+}
+.img-container img:nth-child(1){
+    grid-area: first;
+    border-bottom: 2px solid white;
+}
+.img-container img:nth-child(2){
+    grid-area: second;
+    border-bottom: 2px solid white;
+}
+.img-container img:nth-child(3){
+    grid-area: third;
+}
+.img-container img:nth-child(4){
+    grid-area: fourth;
+}
+.img-container img:nth-child(5){
+    grid-area: fifth;
+}
+.img-container img:nth-child(6){
+    grid-area: sixth;
+}
+    
+.reserve-container-form {
+    width: 100%;
+    position: absolute;
+    top: auto;
+    bottom: -60px;
+    display: flex;
+    justify-content: center;
+}
+.reserve-container-form .container {
+    padding: 40px;
+    max-width: 1320px;
+    width: 45%;
+    background-color: white;
+    border-radius: 8px;
+}
+.reserve-container-form form div.input-container {
+    width: 100%;
+    margin-bottom: 16px;
+}
+.reserve-container-form form div.input-container input, 
+.reserve-container-form form div.input-container select,
+.reserve-container-form form div.input-container button {
+    height: 46px;
+    padding: 9px 16px;
+    border: 1px solid rgb(237, 232, 232);
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+.reserve-container-form form div.input-container select {
+    background-color: white;
+    color: gray;
+}
