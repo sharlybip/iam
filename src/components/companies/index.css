@@ -1,0 +1,32 @@
+.companies {
+    width: 100%;
+    height: auto;
+    padding: 160px 0 0 0;
+    margin: 56px 0 104px 0;
+    display: flex;
+    justify-content: center;
+}
+.companies-title-container {
+    display: flex;
+    justify-content: center;
+}
+.companies-container {
+    max-width: 1320px;
+    width: 100%;
+}
+.companies-logos-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(150px, 200px));
+    place-content: center;
+    
+}
+.companies-logos-container div {
+    max-width: 200px;
+    max-height: 83px;
+    padding: 0 16px;
+}
+.companies-logos-container div img {
+    margin: 24px 0;
+    width: 100%;
+}

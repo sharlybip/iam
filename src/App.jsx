@@ -5,6 +5,8 @@ import { Email } from './components/email';
 import { Entertainment } from './components/entertainment';
 import { MasterArea } from './components/masterArea';
 import { Reserve } from './components/reserve';
+import { Companies } from './components/companies';
+import { Footer } from './components/footer';
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
     <Entertainment/>
     <MasterArea/>
     <Reserve/>
+    <Companies/>
+    <Footer/>
     </>
   )
 }
