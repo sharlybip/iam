@@ -25,7 +25,7 @@ section.masterArea {
     
   }
   .card {
-    width: 408px;
+    max-width: 380px;
     height: 512px;
     padding: 0 16px;
 
@@ -51,7 +51,7 @@ section.masterArea {
   }
 
   .card-desc {
-    width: 340px;
+    max-width: 320px;
     height: 168px;
     padding: 24px;
     position: absolute;
