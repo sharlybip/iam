@@ -41,6 +41,7 @@
     border:1px solid gray;
     padding: 10px 16px;
     font-size: 14px;
+    margin-right: 10px;
   }
   .email-form div input:focus {
     outline: 5px solid #dea5a5;

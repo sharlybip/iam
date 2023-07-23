@@ -12,30 +12,20 @@
     justify-content: center;
     
 }
-.footer-container-in .father-list {
-    padding: 0 16px;
-}
-.footer-container-in .father-list h4 {
-    margin-bottom: 24px;
-    font-size: 20px;
-}
-.footer-container-in .father-list ul li a {
-    color: gray;
-    line-height: 2;
-}
+
 .footer-container-in .father-list:nth-child(5) {
     min-width: 380px;
     max-width: 440px;
 }
-.suscribe div p{
+.subscribe div p{
     color: gray;
     margin-bottom: 16px;
 
 }
-.suscribe div form div {
+.subscribe div form div {
     margin-bottom: 16px;
 }
-.suscribe div form div input {
+.subscribe div form div input {
     width: 100%;
     padding: 10px 16px;
     border-radius: 4px;

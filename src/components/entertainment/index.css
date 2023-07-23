@@ -14,7 +14,6 @@ section.entertainment {
     height: fit-content;
   }
   .entertainment-container-item {
-    
     max-width: 45%;
     height: auto;
     margin: 0 32px 16px 0;
@@ -38,42 +37,4 @@ section.entertainment {
   .entertainment-container-item div.description p{
     color: white;
     font-size: 20px;
-  }
-  .entertainment-container-item div.img-overlay {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    
-  }
-  .entertainment-container-item:hover div.img-overlay a img{
-    transform: scale(1.1);
-    transition: 1s;
-  }
-  .entertainment-container-item .img-overlay a img {
-    width: 100%;
-    height: 100%;
-    transition: .8s;
-  }
-  .entertainment-container-item  div.caption {
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    padding: .5rem 1rem;
-    border-radius: 12px;
-    top: 50%;
-    bottom: 50%;
-    left: 40%;
-    right: 50%;
-    border: 2px solid white;
-    color: white;
-  }
-  .entertainment-container-item  div.caption a{
-    font-size: 20px;
-    color: inherit;
-    font-weight: bold;
-  
-  }
-  .entertainment-container-item  div.caption:hover {
-    background-color: white;
-    color: black;
   }

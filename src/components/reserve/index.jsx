@@ -6,7 +6,7 @@ const Reserve = () => {
         <div className="reserve">
             <div className="img-container">
                 
-                    <img src="https://media.istockphoto.com/id/1458823471/es/foto/el-chico-positivo-est%C3%A1-de-pie-con-la-computadora-port%C3%A1til-en-las-manos-un-hombre-guapo-est%C3%A1-en.jpg?s=612x612&w=0&k=20&c=xWuN2SX0xfCQ8w_g7AJJZlE-EW7mXz9UQIP2sEz5KDg=" alt="gallery" className="img-fluid border-end border-white h-lg-100"/>
+                    <img src="https://media.istockphoto.com/id/1458823471/es/foto/el-chico-positivo-est%C3%A1-de-pie-con-la-computadora-port%C3%A1til-en-las-manos-un-hombre-guapo-est%C3%A1-en.jpg?s=612x612&w=0&k=20&c=xWuN2SX0xfCQ8w_g7AJJZlE-EW7mXz9UQIP2sEz5KDg=" alt="gallery"/>
                 
 
                 
@@ -23,7 +23,7 @@ const Reserve = () => {
                     <img src="https://media.istockphoto.com/id/1417064302/es/foto/mujer-joven-y-alegre-disfrutando-de-un-coche-nuevo-abrazando-el-volante-sentado-en-su-interior.jpg?s=612x612&w=0&k=20&c=HqHimUYSuWaiyNW9WJgimlM6ctC2IVTX4kmT-NbSXjY=" alt="gallery" className="micha"/>
                 
                 
-                    <img src="https://media.istockphoto.com/id/1423295447/es/foto/foto-de-cuerpo-entero-de-una-joven-asi%C3%A1tica-en-el-fondo.jpg?s=612x612&w=0&k=20&c=CbKC_m6OZd402ulbRxYbNqEVO9SGc5G9zej6HcJSxmE=" alt="gallery" className="img-fluid border-start border-white h-lg-100"/>
+                    <img src="https://media.istockphoto.com/id/1423295447/es/foto/foto-de-cuerpo-entero-de-una-joven-asi%C3%A1tica-en-el-fondo.jpg?s=612x612&w=0&k=20&c=CbKC_m6OZd402ulbRxYbNqEVO9SGc5G9zej6HcJSxmE=" alt="gallery"/>
                 
             </div>
             <div className="reserve-container-form">

@@ -13,14 +13,14 @@ import { TitleDescription } from '../Title-description';
             <div className="card-container">
                 <div className="card">
                     <div className="card-image">
-                        <a href="pages/program-single.html" className="img-zoom">
-                            <img className="rounded img-fluid w-100" src="https://media.istockphoto.com/id/1501183741/es/foto/hermoso-caballo-marr%C3%B3n-corriendo-por-el-agua-en-la-playa-durante-una-puesta-de-sol-con.jpg?s=612x612&w=0&k=20&c=HyhBrs7y_hQxjoLbgefWExv1DyKDTVvxTbgFgF8vAJ0=" alt="thumb-img"/>
+                        <a href="pages/program-single.html">
+                            <img src="https://media.istockphoto.com/id/1501183741/es/foto/hermoso-caballo-marr%C3%B3n-corriendo-por-el-agua-en-la-playa-durante-una-puesta-de-sol-con.jpg?s=612x612&w=0&k=20&c=HyhBrs7y_hQxjoLbgefWExv1DyKDTVvxTbgFgF8vAJ0=" alt="thumb-img"/>
                         </a>
                     </div>
                     <div className="card-desc">
                         <div className="card-desc-body">
                             <h3 className=""> 
-                                <a href="pages/program-single.html"             className="text-inherit">
+                                <a href="pages/program-single.html">
                                     Life Coaching
                                 </a>
                             </h3>
@@ -35,13 +35,13 @@ import { TitleDescription } from '../Title-description';
                 </div>
                 <div className="card">
                     <div className="card-image">
-                        <a href="pages/program-single.html" className="img-zoom">
-                            <img className="rounded img-fluid w-100" src="https://media.istockphoto.com/id/1490258028/es/foto/apret%C3%B3n-de-manos-y-acuerdo-exitosos-agente-de-bienes-ra%C3%ADces-y-cliente-celebrando-contratos.jpg?s=612x612&w=0&k=20&c=JYMTzJ1gawh9l6GadxQi7_srwQT41nZg98KLasZuGDk=" alt="thumb-img"/>
+                        <a href="pages/program-single.html">
+                            <img src="https://media.istockphoto.com/id/1490258028/es/foto/apret%C3%B3n-de-manos-y-acuerdo-exitosos-agente-de-bienes-ra%C3%ADces-y-cliente-celebrando-contratos.jpg?s=612x612&w=0&k=20&c=JYMTzJ1gawh9l6GadxQi7_srwQT41nZg98KLasZuGDk=" alt="thumb-img"/>
                         </a>
                     </div>
                     <div className="card-desc">
-                        <div className="card-desc-body mt-n16 bg-white me-6 rounded-end p-4">
-                        <h3 className="mb-3"> <a href="pages/program-single.html" className="text-inherit">
+                        <div>
+                        <h3> <a href="pages/program-single.html">
                             Relationship
                             </a>
                         </h3>
@@ -54,13 +54,13 @@ import { TitleDescription } from '../Title-description';
                 </div>
                 <div className="card">
                     <div className="card-image ">
-                        <a href="pages/program-single.html" className="img-zoom"><img className="rounded img-fluid w-100" src="https://media.istockphoto.com/id/1419608738/es/foto/gallo-rojo-joven-colombia.jpg?s=612x612&w=0&k=20&c=pO37OEjqXHUfZ_dEBmhWTYIxEoLNtq7BM2o1XeBfbWQ=" alt="thumb-img"/>
+                        <a href="pages/program-single.html"><img src="https://media.istockphoto.com/id/1419608738/es/foto/gallo-rojo-joven-colombia.jpg?s=612x612&w=0&k=20&c=pO37OEjqXHUfZ_dEBmhWTYIxEoLNtq7BM2o1XeBfbWQ=" alt="thumb-img"/>
                         </a>
                     </div>
                     <div className="card-desc">
-                        <div className="card-desc-body mt-n16 bg-white me-6 rounded-end p-4">
-                            <h3 className="mb-3"> 
-                                <a href="pages/program-single.html" className="text-inherit">
+                        <div className="card-desc-body">
+                            <h3> 
+                                <a href="pages/program-single.html">
                                     Leadership
                                 </a>
                             </h3>

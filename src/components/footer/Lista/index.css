@@ -1,0 +1,11 @@
+.father-list {
+    padding: 0 16px;
+}
+.father-list h4 {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+.father-list ul li a {
+    color: gray;
+    line-height: 2;
+}

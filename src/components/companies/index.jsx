@@ -1,3 +1,4 @@
+import { Logo } from './Logo';
 import './index.css';
 import logo from '../../assets/gitlab-wordmark.svg'
 
@@ -11,42 +12,18 @@ const Companies = () => {
                     </h3>
                 </div>
                 <div className="companies-logos-container">
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
-                    <div className="mb-4 mt-4 text-center">
-                        <img src={logo} alt="logo"/>
-                    </div>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
+                    <Logo logo={logo}/>
                 </div>
             </div>
         </div>

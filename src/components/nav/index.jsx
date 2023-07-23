@@ -15,13 +15,13 @@ const Nav = () =>{
 
     return (
         <section className='nav'>
-        <nav className="navbar navbar-expand-lg navbar-default fixed-top border-3 border-top border-primary navbar-dark">
+        <nav className="navbar">
             <div className={scroll ? 'container-nav navbar-blue' : 'container-nav navbar'}>
-                <a className="navbar-brand @@brandLogo" href="./index.html"><img src='https://codescandy.com/coach/bootstrap-5/assets/images/logo.svg' alt=""/></a>
+                <a href="./index.html"><img src='https://codescandy.com/coach/bootstrap-5/assets/images/logo.svg' alt=""/></a>
                 <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="icon-bar top-bar mt-0"></span>
-                    <span className="icon-bar middle-bar"></span>
-                    <span className="icon-bar bottom-bar"></span>
+                    <span className="icon-bar"></span>
+                    <span className="icon-bar"></span>
+                    <span className="icon-bar"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbar-default">
                     <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
@@ -574,14 +574,14 @@ const Nav = () =>{
         </nav>
         <div className="hero">
             <div className="hero-image">
-            <div className="pt-17 pb-13 pt-lg-19 pb-lg-19 text-center text-light">
-                <h1 className="display-3 text-white mb-3 lh-1">
+            <div>
+                <h1>
                 Become the hero of your own story
                 </h1>
-                <p className="px-xl-18 px-md-10 mb-5 lead">
+                <p>
                 Join our Coach community of like-minded individuals. Get your ticket to the 2021 event.
                 </p>
-                <a href="pages/signin.html" className="btn btn-primary btn-lg">Get Ticket</a>
+                <a href="pages/signin.html" className="btn btn-primary">Get Ticket</a>
             </div>
             </div>
         </div>

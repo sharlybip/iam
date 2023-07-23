@@ -1,0 +1,9 @@
+div {
+    max-width: 200px;
+    max-height: 83px;
+    padding: 0 16px;
+}
+div img {
+    margin: 24px 0;
+    width: 100%;
+}
