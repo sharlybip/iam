@@ -75,3 +75,8 @@ section.masterArea {
     color: red;
     border-bottom: 2px solid red;
   }
+  @media(max-width:992px) {
+    .card:nth-child(3) {
+      display: none;
+    }
+  }

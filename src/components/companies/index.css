@@ -9,6 +9,7 @@
 .companies-title-container {
     display: flex;
     justify-content: center;
+    height: 98px;
 }
 .companies-container {
     max-width: 1320px;
@@ -17,7 +18,13 @@
 .companies-logos-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 200px));
+    grid-template-columns: repeat(auto-fill, minmax(170px, 200px));
     place-content: center;
     
+}
+@media(max-width:992px) {
+    .companies-logos-container {
+        width: 720px;
+        margin: 0 auto;
+    }
 }

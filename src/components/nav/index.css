@@ -3,29 +3,48 @@ section.nav {
     height: 680px;
     position: relative;
   }
-  .navbar {
-    background-color: transparent;
-    width: 100%;
-    position: fixed;
+  .checkbox {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    opacity: 0;
+    top: -8px;
     z-index: 100;
+    
   }
-  .navbar-blue {
-    transition: 800ms;
-    background-color: #261F44;
+  .navbar {
     width: 100%;
-    position: fixed;
   }
-  .container-nav {
+.container-nav{
+  width: 100%;
+  display: flex;
+  border-top: 3px solid #FF5938;
+  justify-content: center;
+  position: fixed;
+  height: 98px;
+  transition: 800ms;
+  z-index: 1;
+}
+  .container-navbar-container {
     width: 100%;
     display: flex;
-    border-top: 3px solid #FF5938;
     justify-content: space-around;
     align-items: center;
+    height: inherit;
+  }
+  .navbar-trans {
+    background-color: transparent;
+  }
+  .navbar-blue {
+    background-color: #261F44;
   }
   .navbar-nav{
     display: flex;
     align-items: center;
     height: 74px;
+    color: white;
   }
   .navbar-collapse {
     display: flex;
@@ -38,7 +57,7 @@ section.nav {
   .nav-link {
     padding: 1rem 0;
     margin-right: 2rem;
-    color: white;
+    color: inherit;
     font-size: 16px;
     width:fit-content ;
     height: 52px;
@@ -68,7 +87,7 @@ section.nav {
   }
   .dropdown-menu::before {
     content: 'he';
-    color:white;
+    color:transparent;
     width: 12px;
     height: 12px;
     background-color: rgb(255, 255, 255);
@@ -89,7 +108,7 @@ section.nav {
   .dropdown-menu li a h4 span{
     font-size: 12px;
     background-color: green;
-    color: white;
+    color: inherit;
     padding: 2px;
     border-radius: 4px;
     display: inline-block;
@@ -149,49 +168,52 @@ section.nav {
     font-size: 14px;
     color: white;
   }
-  .hero {
-    width: 100%;
-    height: 680px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: -1;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 80px 60px 0px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    background-image: url('https://i.blogs.es/f8a8ec/incluir_personas_paisajes_historia/1366_2000.webp');
-    background-size: cover;
-    color: white;
-  }
-  .hero-image {
-    max-width: 1320px;
-    width: 90%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .hero-image div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 848px;
-  }
-  .hero-image div h1 {
-    font-size: 60px;
-    text-align: center;
-    font-weight: 100;
-    margin-top: 0;
-    margin-bottom: 16px;
-  }
-  .hero-image div p {
-    font-size: 18px;
-    text-align: center;
-    font-weight: 100;
-    padding: 0 160px;
-    margin-bottom: 32px;
   
-  }
-  .hero-image div a {
-    display:block;
-    max-width: fit-content;
+  @media(max-width:992px) {
+    .checkbox {
+      display: block;
+    }
+    .navbar-collapse {
+      display: none;
+      position: absolute;
+      top: 28px;
+      width: 100%;
+      background-color: white;
+      color: black;
+      padding: 4px;
+      border-radius: 8px 0 0 8px;
+      transition: 300ms;
+      height: fit-content;
+    }
+    .container-nav {
+      justify-content: space-around;
+    }
+    .container-navbar-container {
+      width: 98%;
+      justify-content: space-between;
+      position: relative;
+    }
+    
+    
+    .checkbox:checked ~  ul.navbar-collapse {
+      display: block;
+      z-index: 100;
+      transition: 250ms;
+    }
+    
+    .navbar-nav{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      height: 74px;
+      color: inherit;
+      background-color: white;
+      height: fit-content;
+    }
+    .nav-item {
+      border-bottom: 1px solid rgb(233, 229, 229);
+      width: 100%;
+      padding: 12px 20px;
+    }
+    
   }

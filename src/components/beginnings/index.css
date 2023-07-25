@@ -64,3 +64,22 @@
     margin-bottom: 8px;
     padding: 0 16px;
   }
+
+  @media(max-width: 1280px) {
+    .beginnings-container {
+      max-width: 960px;
+    }
+    .beginnings-title-description .title-desc .title{
+      width: 100%;
+    }
+    .beginnings-photos {
+      grid-template-columns: 1fr;
+    }    
+    .beginnings-photos-desc-photos {
+      grid-template-rows: 355px;
+      
+    }
+  }
+  @media (max-width:768px){
+    
+  }

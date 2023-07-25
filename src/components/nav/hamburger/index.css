@@ -1,0 +1,42 @@
+.hamburger-container {
+    position: relative;
+  }
+
+  
+
+  .hamburger {
+    width: 20px;
+    display: none;
+  }
+  
+  .hamburger-stripe {
+    background-color: rgb(20, 19, 19);
+    width: 20px;
+    height: 2px;
+    margin-bottom: 3px;
+    transition: .3s;
+  }
+  @media(max-width:992px) {
+   
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .checkbox:checked ~ .hamburger .stripe-2 {
+      display: none;
+      
+    }
+    .checkbox:checked ~ .hamburger .stripe-1,
+    .checkbox:checked ~ .hamburger .stripe-3 {
+      transition: 500ms;
+      position: absolute;
+      transform: rotate(45deg);
+    }
+    .checkbox:checked ~ .hamburger div.stripe-3 {
+      transform: rotate(135deg);
+    }
+  }

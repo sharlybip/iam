@@ -1,6 +1,4 @@
 .entertainment-container-item {
-    
-    max-width: 45%;
     height: auto;
     margin: 0 32px 16px 0;
     border-radius: 8px;
@@ -45,10 +43,8 @@
     height: fit-content;
     padding: .5rem 1rem;
     border-radius: 12px;
-    top: 50%;
-    bottom: 50%;
-    left: 40%;
-    right: 50%;
+    top: 45%;
+    left: 30%;
     border: 2px solid white;
     color: white;
   }

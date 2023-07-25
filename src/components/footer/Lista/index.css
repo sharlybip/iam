@@ -6,6 +6,7 @@
     font-size: 20px;
 }
 .father-list ul li a {
-    color: gray;
-    line-height: 2;
+    color: #6f6985;
+    line-height: 2.5;
+    white-space: nowrap;
 }

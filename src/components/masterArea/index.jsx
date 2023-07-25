@@ -40,15 +40,15 @@ import { TitleDescription } from '../Title-description';
                         </a>
                     </div>
                     <div className="card-desc">
-                        <div>
-                        <h3> <a href="pages/program-single.html">
-                            Relationship
-                            </a>
-                        </h3>
-                        <p>
-                            Maecenas eu est purus. Morbi luctus turpis justo, sit amet mollis arcu ultricies et.
-                        </p>
-                        <a href="pages/program-single.html" className="btn-primary-link ">Read more</a>
+                        <div className="card-desc-body">
+                            <h3> <a href="pages/program-single.html">
+                                Relationship
+                                </a>
+                            </h3>
+                            <p>
+                                Maecenas eu est purus. Morbi luctus turpis justo, sit amet mollis arcu ultricies et.
+                            </p>
+                            <a href="pages/program-single.html" className="btn-primary-link ">Read more</a>
                         </div>
                     </div>
                 </div>
