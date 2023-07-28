@@ -7,9 +7,9 @@ const Entertainment = () => {
         <div className="entertainment-container">
             <div className="entertainment-container-item">
                 <div className="description">
-                    <h2>
+                    <p className='h2'>
                     Books, Podcast, Courses &amp; More
-                    </h2>
+                    </p>
                     <p>
                     Ready for more? Listen to the latest podcast episode, see when
                     John is headed to your neck of the woods, stock up on business

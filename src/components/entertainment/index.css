@@ -27,18 +27,27 @@ section.entertainment {
     margin-right: 72px;
   
   }
-  .entertainment-container-item div.description h2{
+  .entertainment-container-item div.description p.h2{
     color: white;
-    font-size: 56px;
+    font-size: 2rem;
     margin-bottom: 16px;
-    font-weight: 100;
+    font-weight: lighter;
   }
   .entertainment-container-item div.description p{
     color: white;
     font-size: 20px;
     margin-bottom: 16px;
+    line-height: 1.5;
   }
+  @media(max-width:1200px) {
+    .entertainment-container-item div.description{
+      margin: 0;
+    }
+  }
+
+  
   @media(max-width:992px) {
+    
     div.entertainment-container-item:nth-child(4) {
       display: none;
     }
@@ -50,6 +59,7 @@ section.entertainment {
       place-content: center;
       gap: 30px;
     }
+    
     div.entertainment-container-item {
       max-width: 100%;
       margin: 0;
@@ -63,5 +73,27 @@ section.entertainment {
     }
     div.entertainment-container-item:nth-child(3) {
       grid-area: tres;
+    }
+  }
+
+  @media(max-width: 760px) {
+    .entertainment-container {
+      width: 508px;
+      display: flex;
+    }
+    .entertainment-container-item div.description p.h2 {
+      margin: 0;
+    }
+    div.entertainment-container-item:nth-child(1) p.h2 {
+      margin-bottom: 16px;
+    }
+    div.entertainment-container-item:nth-child(4) {
+      display: block;
+    }
+  }
+  @media(max-width: 540px) {
+    .entertainment-container {
+      width: 90%;
+      display: flex;
     }
   }

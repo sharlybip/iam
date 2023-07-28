@@ -27,14 +27,14 @@
     max-width: 848px;
   }
   .hero-image div h1 {
-    font-size: 60px;
+    font-size: 3.5rem;
     text-align: center;
-    font-weight: 100;
+    font-weight: lighter;
     margin-top: 0;
     margin-bottom: 16px;
   }
   .hero-image div p {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-weight: 100;
     padding: 0 160px;
@@ -53,5 +53,14 @@
   @media(max-width:992px) {
     .hero {
       height: 504px;
+    }
+  }
+  @media(max-width:720px) {
+  
+    .hero-image div h1 {
+      font-size: 48px;
+    }
+    .hero-image div p {
+      padding: 0;
     }
   }

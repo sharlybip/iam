@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import { Hero } from './hero';
-import { Hamburger } from './hamburger';
+// import { Hamburger } from './hamburger';
 
 const Nav = () =>{
     const [scroll, setScroll] = React.useState(false);
@@ -22,14 +22,27 @@ const Nav = () =>{
             <div className={scroll ? 'container-nav navbar-blue' : 'container-nav navbar-trans'}>
                 <div className='container-navbar-container'>
                     <a href="./index.html"><img src='https://codescandy.com/coach/bootstrap-5/assets/images/logo.svg' alt=""/></a> 
-                    <input className="checkbox"  type="checkbox"/>
-                    <Hamburger/>
+                    <div className='hamburger-container'>
+                    <input className="checkbox checkbox-menu"  type="checkbox"/>
+                    <div 
+                        className="hamburger"
+                        >
+                        <div 
+                            className="hamburger-stripe stripe-1">
+                            </div>
+                        <div 
+                            className="hamburger-stripe stripe-2">
+                            </div>
+                        <div 
+                            className="hamburger-stripe stripe-3">
+                            </div>
+                    </div>
                     <div className="navbar-collapse">
                         <ul className="navbar-nav">
                             <li className="nav-item dropdown">
-                                <a className="nav-link d-lg-none" href="#">
+                                <span className="nav-link-title d-lg-none" href="#">
                                     Menu
-                                </a>
+                                </span>
                             </li>
                             <li className="nav-item dropdown ">
                                 <a className="nav-link dropdown-toggle" href="#" id="menu-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-display="static">
@@ -566,6 +579,7 @@ const Nav = () =>{
                         <div className="header-btn ">
                             <a href="https://bit.ly/38DGpi8 " className="btn btn-primary btn-sm ">Buy Now</a>
                         </div>
+                    </div>
                     </div>
                 </div>
 

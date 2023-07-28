@@ -28,3 +28,9 @@
         margin: 0 auto;
     }
 }
+@media(max-width:760px) {
+    .companies-logos-container {
+        width: 508px;
+        margin: 0 auto;
+    }
+}

@@ -66,3 +66,16 @@
         width: 100%;
     }
 }
+@media(max-width:760px) {
+    .footer-container .footer-container-in{
+        max-width: 100%;
+        grid-template-areas: 
+                            "uno dos"
+                            "tres cuatro"
+                            "cinco cinco";
+        place-content: center;
+    }
+    .father-list {
+        width: 238px;
+    }
+}

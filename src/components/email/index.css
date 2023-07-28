@@ -1,6 +1,5 @@
 .email {
     width: 100%;
-    height: 424px;
     padding: 40px 0 120px 0;
     display: flex;
     justify-content: center;
@@ -16,32 +15,30 @@
     width: 100%;
   }
   .email-form-container {
-    width: 880px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
   }
   .email-form {
-    max-width:880px;
+    max-width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   .email-form div {
     width: 100%;
-    height: 47px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
   .email-form div input {
     width: 349px;
-    height: 26px;
+    height: 47px;
     border-radius: 8px;
-    border:1px solid gray;
+    border:1px solid rgb(203, 199, 199);
     padding: 10px 16px;
     font-size: 14px;
     margin-right: 10px;
+    display: inline-block;
   }
   .email-form div input:focus {
     outline: 5px solid #dea5a5;
@@ -56,10 +53,29 @@
   .btn-warning {
     display: inline-block;
     height: 45px;
-    background-color: #e8ce0a;
-    padding: .5rem 1rem;
+    background-color: #ffc107;
+    padding: .7rem 1.2rem;
     border-radius: .4rem;
     font-size: 14px;
     font-weight: bold;
     border: navajowhite;
+  }
+
+  @media (max-width: 768px) {
+    .email-container {
+      max-width: 508px;
+    }
+    .email-form div {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+    .email-form div {
+      width: 100%;
+    }
+    .email-form div input {
+      width: 100%;
+      margin-bottom: 24px;
+      
+    }
   }

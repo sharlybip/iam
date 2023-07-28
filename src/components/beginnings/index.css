@@ -20,43 +20,43 @@
     grid-template-rows: 404px;
     gap: 20px;
   }
-  .beginnings-photos-2 {
-    height: 100%;
+  .beginnings-photos-container {
+    height: fit-contentS;
   }
-  .beginnings-photos-2 div.photos2-container {
+  .beginnings-photos-container div.beginnings-photos-container-second {
     display: grid;
     grid-template-columns: 35% 65%;
     grid-template-rows: 390px;
     
   }
-  .beginnings-photos-desc {
+  .beginnings-desc-container {
     padding: 16px;
     overflow: hidden;
   }
-  .beginnings-photos-desc-photos div{
+  .beginnings-desc-container-photos div{
     border-radius: 20px;
   }
-  .beginnings-photos-desc{
+  .beginnings-desc-container{
     width: 100%;
   }
-  .beginnings-photos-desc p {
+  div.beginnings-desc-container p {
     color: gray;
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 64px;
+    width: 100%;
   }
-  .beginnings-photos-desc-photos {
+  .beginnings-desc-container-photos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px;
     gap: 20px;
   }
-  .photos2-container div {
-    border-radius: 20px;
+  .beginnings-photos-container-second div {
     overflow: hidden;
   }
-  .beginnings-photos-desc-photos div img,
-  .beginnings-photos-2 div.photos2-container div img {
+  .beginnings-desc-container-photos div img,
+  .beginnings-photos-container div.beginnings-photos-container-second div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -68,6 +68,7 @@
   @media(max-width: 1280px) {
     .beginnings-container {
       max-width: 960px;
+      align-items: center;
     }
     .beginnings-title-description .title-desc .title{
       width: 100%;
@@ -75,11 +76,38 @@
     .beginnings-photos {
       grid-template-columns: 1fr;
     }    
-    .beginnings-photos-desc-photos {
+    .beginnings-desc-container-photos {
       grid-template-rows: 355px;
       
     }
   }
+  @media(max-width:992px) {
+    .beginnings {
+      padding: 56px 0;
+    }
+  }
   @media (max-width:768px){
-    
+    .beginnings-container {
+      width: 508px;
+      margin: 0 auto;
+    }
+    .beginnings-photos-container div.beginnings-photos-container-second {
+      grid-template-columns: 1fr;
+      grid-template-rows: none;
+      gap: 32px;
+    }
+    .beginnings-photos {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+    }
+   
+    .beginnings-photos-container-second div {
+      overflow: visible;
+      object-fit: none ;
+    }
+    .beginnings-desc-container-photos {
+      display: flex;
+      flex-direction: column;
+    }
   }
