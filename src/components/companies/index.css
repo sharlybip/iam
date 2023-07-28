@@ -11,6 +11,9 @@
     justify-content: center;
     height: 98px;
 }
+.companies-title-container h3 {
+    text-align: center;
+}
 .companies-container {
     max-width: 1320px;
     width: 100%;
@@ -18,7 +21,7 @@
 .companies-logos-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 200px));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 200px));
     place-content: center;
     
 }
@@ -30,7 +33,7 @@
 }
 @media(max-width:760px) {
     .companies-logos-container {
-        width: 508px;
+        width: 90%;
         margin: 0 auto;
     }
 }

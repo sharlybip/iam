@@ -31,6 +31,9 @@
   }
   @media(max-width:768px) {
     .title h2{
+      width: container;
+    }
+    .title h2{
       font-size: 34px;
     }
   }

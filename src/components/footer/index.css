@@ -75,7 +75,8 @@
                             "cinco cinco";
         place-content: center;
     }
-    .father-list {
-        width: 238px;
+    div.father-list {
+        width: 200px;
+        margin: 0;
     }
 }

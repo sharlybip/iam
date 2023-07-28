@@ -91,10 +91,11 @@
     .reserve {
         height: fit-content;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     .reserve .img-container {
-        width: 508px;
+        max-width: 508px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -104,5 +105,21 @@
     .reserve .img-container img {
         margin-bottom: 1.5px ;
     }
+    div.reserve-container-form .container{
+        width: 80%;
+    }
     
+}
+@media(max-width:575px) {
+    
+    div.reserve-container-form .container{
+        width: 90%;
+    }
+    div.reserve-container-form{
+        position: static;
+        width: 100%;
+    }
+    div.img-container {
+        padding-bottom: 0;
+    }
 }

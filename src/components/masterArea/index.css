@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 section.masterArea {
     width: 100%;
     padding: 120px 0;
@@ -15,7 +13,7 @@ section.masterArea {
     padding-bottom: 40px;
   }
   .masterArea-container .title-desc .title h2 {
-    width: 500px;
+    max-width: 500px;
   }
   .card-container {
     width: 100%;
@@ -90,5 +88,13 @@ section.masterArea {
   }
   .card:nth-child(3) {
     display: block;
+  }
+}
+@media(max-width:575px) {
+  section.masterArea {
+    padding-bottom: 0;
+}
+  section.masterArea .masterArea-container {
+    width: 100%;
   }
 }
