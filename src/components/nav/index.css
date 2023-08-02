@@ -258,17 +258,19 @@ section.nav {
       right: 0;
       left: -1;
       transition: 1s;
-
+      
     }
     
-  .navbar-nav{
+    .navbar-nav{
+    overflow-y: scroll;
+    overflow-x: hidden;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       height: 74px;
       color: inherit;
-      background-color: white;
-      height: fit-content;
+      background-color: rgb(243, 246, 246);
+      height: 80vh;
     }
   .nav-item {
       border-bottom: 1px solid rgb(233, 229, 229);
@@ -278,8 +280,8 @@ section.nav {
     }
     .nav-item:hover .dropdown-menu {
       position: static;
-      padding-left: 2px;
-      background-color: beige;
+      width: 100%;
+      background-color: rgb(245, 240, 240);
     }
     .nav-link {
       display: inline-block;
@@ -294,7 +296,17 @@ section.nav {
     }
     .dropdown-submenu:hover  .dropdown-menu-lg-end {
       position: static;
-      background-color: rgb(243, 243, 230);
+      width: 100%;
+      background-color: white;
       padding-left: 2px;
+    }
+    .dropdown-menu li a div div h4{
+      padding-left: 40px;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .dropdown-menu li a div div p {
+      padding-left: 40px;
+      font-size: 12px;
     }
   } 

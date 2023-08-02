@@ -5,9 +5,13 @@ import { Hero } from './hero';
 
 const Nav = () =>{
     const [scroll, setScroll] = React.useState(false);
-
+    
     const scrollNav = () => {
-        if (window.scrollY >= 200) {
+        if (window.scrollY >= 200 && window.screen.width > 992) {
+            // if(window.screen.width < 992) 
+            setScroll(true)
+        }
+        else if (window.scrollY >= 100 && window.screen.width < 992) {
             // if(window.screen.width < 992) 
             setScroll(true)
         } else {
@@ -15,7 +19,7 @@ const Nav = () =>{
         }
     }
     window.addEventListener('scroll', scrollNav)
-
+    
     return (
         <section className='nav'>
         <nav className="navbar">
@@ -23,7 +27,7 @@ const Nav = () =>{
                 <div className='container-navbar-container'>
                     <a href="./index.html"><img src='https://codescandy.com/coach/bootstrap-5/assets/images/logo.svg' alt=""/></a> 
                     <div className='hamburger-container'>
-                    <input className="checkbox checkbox-menu"  type="checkbox"/>
+                    <input className="checkbox checkbox-menu" id='check'  type="checkbox"/>
                     <div 
                         className="hamburger"
                         >

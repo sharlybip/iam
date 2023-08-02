@@ -21,7 +21,7 @@
 .companies-logos-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 200px));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
     place-content: center;
     
 }
@@ -35,5 +35,7 @@
     .companies-logos-container {
         width: 90%;
         margin: 0 auto;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 170px));
     }
+    
 }
