@@ -2,9 +2,7 @@
 import './index.css';
 
 const List = ({title, list}) => {
-    const listArray = list;
-    console.log(listArray);
-    const final = listArray.map((item) => <li key={item.id}><a href="#">{item.name}</a></li>);
+    const final = list.map((item) => <li key={item.id}><a href="#">{item.name}</a></li>);
     
     return (
         <div className="father-list">

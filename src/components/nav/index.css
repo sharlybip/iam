@@ -300,13 +300,20 @@ section.nav {
       background-color: white;
       padding-left: 2px;
     }
+    .dropdown-menu li a div div img{
+      width: 50px;
+    }
     .dropdown-menu li a div div h4{
-      padding-left: 40px;
+      padding-left: 4px;
       font-size: 18px;
       font-weight: 400;
     }
     .dropdown-menu li a div div p {
-      padding-left: 40px;
+      padding-left: 4px;
       font-size: 12px;
+    }
+    .dropdown-menu::before,
+    .dropdown-menu-lg-end::before {
+      display: none;
     }
   } 
