@@ -1,11 +1,5 @@
 /* eslint-disable react/prop-types */
-const SubmenuImage = ({icon, title, description, list}) => {
-    const final = list.map(item => 
-        <li key={item.id}>
-            <a className="dropdown-item" href={`./pages/${title.toLowerCase()}-${(item.name).toLowerCase()}.html`}>
-                {item.name}
-            </a>
-        </li>)
+const SubmenuImage_noNextSubmenu = ({icon, title, description}) => {
     return (
         <li className="dropdown-submenu">
             <a href="#">
@@ -21,11 +15,8 @@ const SubmenuImage = ({icon, title, description, list}) => {
                     </div>
                 </div>
             </a>
-            <ul className="dropdown-submenu-nextSubmenu">
-                {final}
-            </ul>
         </li>
     )
 }
 
-export { SubmenuImage };
+export { SubmenuImage_noNextSubmenu };
