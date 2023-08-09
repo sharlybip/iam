@@ -17,9 +17,39 @@ const NavbarCollapse = () => {
                     </span>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#" id="menu-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-display="static">
+                    <span className="nav-link" href="#" id="menu-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-display="static">
+                        Home
+                    </span>
+                    <ul className="dropdown-menu" aria-labelledby="menu-1">
+                        <MenuSubmenu_NoNextSubmenu
+                            name = "Log out"
+                            description="Remeber me"
+                            newer="new music"
+                        />
+                        <SubmenuImage 
+                            icon = {icon}
+                            title = "Program"
+                            description = "Program cards design."
+                            list = {[
+                                {id: 1, name: "Grid"},
+                                {id: 2, name: "List"},
+                                {id: 3, name: "Single"},
+                            ]}
+                        />
+                        <MenuSubmenu
+                            name = "Case Study"
+                            description= "Case Study Element Design"
+                            list = {[
+                                {id: 1, name: "Case of Study", href:"./pages/case-studies.html"},
+                                {id: 2, name: "Single", href:"./pages/case-study-single.html"}
+                            ]}
+                        />
+                    </ul>
+                </li>
+                <li className="nav-item">
+                    <span className="nav-link" href="#" id="menu-1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-display="static">
                         Homepages
-                    </a>
+                    </span>
                     <ul className="dropdown-menu" aria-labelledby="menu-1">
                         <MenuSubmenu_NoNextSubmenu
                             name = "Yoga"
@@ -54,9 +84,9 @@ const NavbarCollapse = () => {
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">
+                    <span className="nav-link">
                         Pages
-                    </a>
+                    </span>
                     <ul className="dropdown-menu">
                         <SubmenuImage 
                             icon = {icon}
@@ -113,9 +143,9 @@ const NavbarCollapse = () => {
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <span className="nav-link" href="#">
                         Blog
-                    </a>
+                    </span>
                     <ul className="dropdown-menu">
                         <ListLinks
                             name = "Blog"
@@ -140,9 +170,9 @@ const NavbarCollapse = () => {
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <span className="nav-link" href="#">
                         Resources
-                    </a>
+                    </span>
                     <ul className="dropdown-menu">
                         <MenuSubmenu
                             name = "Case Study"
@@ -186,9 +216,9 @@ const NavbarCollapse = () => {
                     </ul>
                 </li>
                 <li className="nav-item dropdown">
-                    <a className="nav-link" href="#" id="menu-5" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span className="nav-link" href="#" id="menu-5" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Account
-                    </a>
+                    </span>
                     <ul className="dropdown-menu" aria-labelledby="menu-5">
                     <ListLinksSubmenu
                             name ="Sign In"
@@ -230,9 +260,9 @@ const NavbarCollapse = () => {
                     </ul>
                 </li>
                 <li className="nav-item dropdown">
-                    <a className="nav-link" href="#">
+                    <span className="nav-link" href="#">
                         Shop
-                    </a>
+                    </span>
                     <ul className="dropdown-menu">
                         <ListLinks
                             name = "Product"
@@ -261,9 +291,9 @@ const NavbarCollapse = () => {
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link " href="#">
+                    <span className="nav-link " href="#">
                         Docs
-                    </a>
+                    </span>
                     <ul className="dropdown-menu left">
                         <SubmenuImage_noNextSubmenu
                             icon={icon}
