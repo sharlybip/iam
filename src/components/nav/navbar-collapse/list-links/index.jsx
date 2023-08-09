@@ -1,4 +1,7 @@
 /* eslint-disable react/prop-types */
+import './index.css'
+
+
 const ListLinks = ({name, href}) => {
     return (
         <li>

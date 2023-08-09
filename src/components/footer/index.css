@@ -2,7 +2,8 @@
     width: 100%;
     background-color: #261F44;
     color: white;
-    padding: 80px 16px;
+    padding: 80px 16px;display: flex;
+    justify-content: center;
 }
 .footer-container {
     max-width: 1320px;
@@ -33,10 +34,6 @@
     font-size: 18px;
 }
 @media(max-width:992px) {
-    div.footer-container {
-        display: flex;
-        justify-content: center;
-    }
     .footer-container .footer-container-in{
         max-width: 720px;
         display: grid;

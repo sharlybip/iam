@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import './index.css'
+
 const SubmenuImage = ({icon, title, description, list}) => {
     const final = list.map(item => 
         <li key={item.id}>

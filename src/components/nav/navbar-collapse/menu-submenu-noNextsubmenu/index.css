@@ -1,0 +1,14 @@
+.dropdown-menu li a h4 span{
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 4px;
+  }
+  .dropdown-menu li a p {
+    color: gray;
+    font-size: 12px;
+    white-space: nowrap;
+  }
